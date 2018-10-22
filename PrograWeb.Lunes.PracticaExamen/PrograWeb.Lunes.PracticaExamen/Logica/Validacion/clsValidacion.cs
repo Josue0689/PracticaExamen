@@ -43,5 +43,20 @@ namespace PrograWeb.Lunes.PracticaExamen.Logica.Validacion
                 return false;
             }
         }
+
+        public bool ValidaLado(double la) {
+            if (la > 0)
+                return true;
+            else
+                return false;
+        }
+
+        public bool ValidaRect(double b, double a) {
+            if (b > 0 && a > 0)
+            
+                return true;
+            else
+                return false;
+        }
     }
 }

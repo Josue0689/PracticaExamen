@@ -52,6 +52,11 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="PruebaCuadrado1.cs" />
+    <Compile Include="PruebaCuadrado2.cs" />
+    <Compile Include="PruebaRectangulo1.cs" />
+    <Compile Include="PruebaRectangulo2.cs" />
+    <Compile Include="PruebaRectangulo3.cs" />
     <Compile Include="PruebaTriangulo1.cs" />
     <Compile Include="PruebaTriangulo2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -15,6 +15,8 @@ namespace PrograWeb.Lunes.PracticaExamen
 
         [OperationContract]
         bool Triangul(double A, double B, double C);
+        bool Cuadrad(double L);
+        bool Rectan(double Ba, double Al);
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
