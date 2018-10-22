@@ -91,21 +91,21 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="Lógica\Servicio\WSPracticaExamen.svc" />
+    <Content Include="Logica\Servicio\WSPracticaExamen.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lógica\Servicio\WSPracticaExamen.svc.cs">
+    <Compile Include="Logica\Accion\clsTriangulo.cs" />
+    <Compile Include="Logica\Especificación\Triangulo.cs" />
+    <Compile Include="Logica\Servicio\WSPracticaExamen.svc.cs">
       <DependentUpon>WSPracticaExamen.svc</DependentUpon>
     </Compile>
-    <Compile Include="Lógica\Interfaz\IPracticaExamen.cs" />
+    <Compile Include="Logica\Interfaz\IPracticaExamen.cs" />
+    <Compile Include="Logica\Validacion\clsValidacion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Lógica\Acción\" />
-    <Folder Include="Lógica\Especificación\" />
-    <Folder Include="Lógica\Validación\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
