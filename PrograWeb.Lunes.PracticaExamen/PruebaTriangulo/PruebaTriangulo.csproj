@@ -52,7 +52,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="PruebaUnitaria1.cs" />
+    <Compile Include="PruebaTriangulo1.cs" />
+    <Compile Include="PruebaTriangulo2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

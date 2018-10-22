@@ -10,11 +10,11 @@ namespace PrograWeb.Lunes.PracticaExamen
 {
     // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de interfaz "IService1" en el código y en el archivo de configuración a la vez.
     [ServiceContract]
-    public interface IPracticaExamen
+    public interface ISPracticaExamen
     {
 
         [OperationContract]
-        string GetData(int value);
+        bool Triangul(double A, double B, double C);
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
