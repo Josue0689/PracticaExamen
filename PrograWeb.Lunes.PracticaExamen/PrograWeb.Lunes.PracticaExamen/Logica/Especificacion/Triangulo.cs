@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace PrograWeb.Lunes.PracticaExamen.Logica.Especificación
+namespace PrograWeb.Lunes.PracticaExamen.Logica.Especificacion
 {
     public class Triangulo
     {

@@ -96,7 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Logica\Accion\clsTriangulo.cs" />
-    <Compile Include="Logica\Especificación\Triangulo.cs" />
+    <Compile Include="Logica\Especificacion\Triangulo.cs" />
     <Compile Include="Logica\Servicio\WSPracticaExamen.svc.cs">
       <DependentUpon>WSPracticaExamen.svc</DependentUpon>
     </Compile>
